@@ -1,0 +1,158 @@
+[
+    {
+        "id": "0",
+      "title": "Arábica",
+      "origen": "Etiopía",
+      "sabor": "Suave y afrutado",
+      "notas": ["Cítricos", "Floral", "Dulce"],
+      "intensidad": 3,
+      "description": "El café Arábica es conocido por su suavidad y aroma afrutado, ideal para disfrutar en cualquier momento del día.",
+      "price": "10.99",
+      "stock":"100",
+      "category":"Suaves",
+      "thumbnail":"https://producersmarket.imgix.net/images/products/photos/1609409807068994561.jpg?auto=compress%2Cenhance&fit=crop&ixlib=react-8.6.4&h=427&w=656&q=23&dpr=4",
+      "images":[
+        "https://cafemalist.com/wp-content/uploads/2021/05/cafe-arabica-granos-cafemalist.jpg",
+        "https://agropress.pe/wp-content/uploads/2020/09/coffee-beans-3392159_1920-1536x1024.jpg",
+        "https://www.kx-oraio.com/wp-content/uploads/2020/05/arabica-coffee-bean.jpg"
+      ] 
+    },
+    {
+        "id":"1",
+      "title": "Robusta",
+      "origen": "África Central",
+      "sabor": "Fuerte y amargo",
+      "notas": ["Chocolate", "Frutos secos", "Terroso"],
+      "intensidad": 5,
+      "description": "El café Robusta tiene un sabor intenso y amargo, con notas de chocolate y frutos secos, perfecto para quienes prefieren un café más fuerte.",
+      "price": "8.99",
+      "stock":"75",
+      "category":"Intensos",
+      "thumbnail":"https://thumbs.dreamstime.com/z/granos-de-caf%C3%A9-robusta-28189653.jpg",
+      "images": [
+        "https://www.lajoyadelcafe.com/wp-content/uploads/2020/12/mejores-cafe-en-grano-natural-por-menos-de-40-e-1-2048x1365.jpg",
+        "https://aromaespress.es/wp-content/themes/aroma-espress/img/702-robusta-grano.png",
+        "https://loucodocafe.com.br/wp-content/uploads/2019/09/cafe-robusta-e1568671715347.jpg"
+      ]
+    },
+    {
+        "id":"2",
+      "title": "Liberica",
+      "origen": "Liberia",
+      "sabor": "Exótico y ahumado",
+      "notas": ["Madera", "Cuero", "Hierbas"],
+      "intensidad": 4,
+      "description": "El café Liberica ofrece una experiencia exótica con su sabor ahumado y notas de madera y hierbas, una opción única para los amantes del café.",
+      "price": "12.99",
+      "stock":"50",
+      "category":"Fuertes",
+      "thumbnail":"https://www.cafedelturco.com/wp-content/uploads/2023/03/liberica-kahve-nedir.jpg",
+      "images":[
+        "https://crehana-blog.imgix.net/media/filer_public/f6/d7/f6d7d6a1-1560-4bbb-b9cb-e736d78d3f84/granos-cafe-java.jpg?auto=format&q=50",
+        "https://infokofe.com/wp-content/uploads/2018/08/Arabica-Robusta-y-liberica.jpg",
+        "https://live.staticflickr.com/65535/52654508156_34cb8f4855_b.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Colombiano",
+      "origen": "Colombia",
+      "sabor": "Afrutado y equilibrado",
+      "notas": ["Nuez", "Caramelo", "Frutos Rojos"],
+      "intensidad": 4,
+      "stock": 80,
+      "category": "Suaves",
+      "price": 11.99,
+      "thumbnail": "https://www.lajoyadelcafe.com/wp-content/uploads/2018/04/cafe-colombia7.jpg",
+      "description": "El café colombiano es famoso por su sabor equilibrado y afrutado, con notas de nuez, caramelo y frutos rojos que lo hacen irresistible.",
+      "images": [
+        "https://uploads.vibra.co/1/2021/02/como-hacer-cafe.png",
+        "https://elcampesino.co/wp-content/uploads/2015/11/29.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Vietnamita",
+      "origen": "Vietnam",
+      "sabor": "Fuerte y picante",
+      "notas": ["Chocolate", "Pimienta", "Tierra"],
+      "intensidad": 5,
+      "stock": 60,
+      "category": "Intensos",
+      "price": 9.99,
+      "thumbnail": "https://www.encocina.com/wp-content/uploads/2021/06/caffe-vietnamita.jpeg",
+      "description": "El café vietnamita tiene un sabor fuerte y picante, con notas de chocolate, pimienta y tierra, una experiencia intensa para los amantes del café robusto.",
+      "images": [
+        "https://cafesmamasame.com/sites/default/files/styles/image_col_12/public/2021-07/Cafe%CC%81%20viernatmita%20V3.jpg?itok=5Nzp6LQj",
+        "https://tse3.mm.bing.net/th?id=OIP.GIRcEiKWu-777VWdZH3RJAEyDM&pid=Api&P=0&w=300&h=300"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Kona",
+      "origen": "Hawái",
+      "sabor": "Suave y delicado",
+      "notas": ["Avellana", "Vainilla", "Chocolate Blanco"],
+      "intensidad": 2,
+      "stock": 70,
+      "category": "Suaves",
+      "price": 14.99,
+      "thumbnail": "https://media.istockphoto.com/id/1136183244/es/foto/granos-de-caf%C3%A9-maduros-de-kona-en-plantaci%C3%B3n-en-big-island-haw%C3%A1i.jpg?s=170667a&w=0&k=20&c=G0ryILDtyUN_hV_1vu2L-kmMqZpV6M994KJGHGI2wgk=",
+      "description": "El café Kona de Hawái es conocido por su suavidad y delicadeza, con notas de avellana, vainilla y chocolate blanco que lo hacen irresistible.",
+      "images":[
+        "https://media.istockphoto.com/id/1136183244/es/foto/granos-de-caf%C3%A9-maduros-de-kona-en-plantaci%C3%B3n-en-big-island-haw%C3%A1i.jpg?s=170667a&w=0&k=20&c=G0ryILDtyUN_hV_1vu2L-kmMqZpV6M994KJGHGI2wgk=",
+        "https://www.percolateur-cafetiere.com/wp-content/uploads/2021/01/coffee-4568576_1920-1024x683.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Sumatra",
+      "origen": "Indonesia",
+      "sabor": "Terroso y especiado",
+      "notas": ["Tierra húmeda", "Pimienta negra", "Tabaco"],
+      "intensidad": 4,
+      "stock": 65,
+      "category": "Intensos",
+      "price": 13.49,
+      "thumbnail": "https://www.lajoyadelcafe.com/wp-content/uploads/2018/04/caf%C3%A9-de-Mandheling-de-Sumatra7-1024x568.jpg",
+      "description": "El café de Sumatra es conocido por su sabor terroso y especiado, con notas de tierra húmeda, pimienta negra y tabaco, una experiencia única para los amantes del café fuerte.",
+      "images":[
+        "https://www.lajoyadelcafe.com/wp-content/uploads/2018/05/caf%C3%A9-sumatra8-788x591.jpg",
+        "https://www.lajoyadelcafe.com/wp-content/uploads/2019/10/GRANOS-DE-CAF%C3%89-2048x1120.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Java",
+      "origen": "Indonesia",
+      "sabor": "Rico y aromático",
+      "notas": ["Chocolate oscuro", "Madera", "Hierbas"],
+      "intensidad": 3,
+      "stock": 55,
+      "category": "Fuertes",
+      "price": 10.49,
+      "thumbnail": "https://www.localisy.com/media/thumbnails/cafeathome_-_java_grain_vrac_-_1200x1200.jpg",
+      "description": "El café de Java es conocido por su rico sabor y aroma, con notas de chocolate oscuro, madera y hierbas que lo hacen irresistible para cualquier aficionado al café.",
+      "images":[
+        "https://images.squarespace-cdn.com/content/v1/5e78cc9985c7b902dfbd323c/1613730155212-1YXAFMM3HP2UBWQXWUIL/blog-que-es-cafe-premium.jpg",
+        "https://img.freepik.com/foto-gratis/olla-rustica-granos-cafe_165536-6397.jpg?size=626&ext=jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Yemení",
+      "origen": "Yemen",
+      "sabor": "Complejo y especiado",
+      "notas": ["Cardamomo", "Clavo de olor", "Chocolate negro"],
+      "intensidad": 4,
+      "stock": 60,
+      "category": "Fuertes",
+      "price": 15.99,
+      "thumbnail": "https://www.lajoyadelcafe.com/wp-content/uploads/2018/07/Yemen-Caf%C3%A92F.jpg",
+      "description": "El café de Yemen es conocido por su complejidad y sabor especiado, con notas de cardamomo, clavo de olor y chocolate negro que ofrecen una experiencia única y sofisticada.",
+      "images":[
+        "https://i.pinimg.com/originals/ec/f8/91/ecf891543f3fc6233bcca88edcd3d272.jpg",
+        "https://uncafeci.to/wp-content/uploads/2021/08/yemen-cafe-historia-origen-sabor.jpg"
+      ]
+    }
+  ]
