@@ -10,7 +10,8 @@ const MapPreview = ({latitude,longitude}) => {
     &key=AIzaSyAgYlu1xY2q1K1IWuEDgUEXI53UKJmTJQA`
 
   return (
-    <Image source={latitude ? {uri:mapPreviewUrl} : require("../../assets/map.jpg")} style={styles.image}/>
+    <Image 
+      source={latitude ? {uri:mapPreviewUrl} : require("../../assets/map.jpg")} style={styles.image}/>
   )
 }
 

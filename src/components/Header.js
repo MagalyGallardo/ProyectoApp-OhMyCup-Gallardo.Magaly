@@ -1,5 +1,6 @@
 import { View , Text ,StyleSheet,Platform ,StatusBar, Pressable } from "react-native"
 import colors from "../utils/globals/colors"
+import fonts from '../utils/globals/fonts'
 import {AntDesign} from "@expo/vector-icons"
 import { useDispatch, useSelector } from "react-redux"
 import { clearUser } from "../features/auth/authSlice"

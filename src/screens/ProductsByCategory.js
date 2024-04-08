@@ -3,6 +3,9 @@ import { useGetProductsByCategoryQuery } from '../app/services/shop'
 import { useEffect, useState } from 'react'
 import ProductByCategory from '../components/ProductByCategory'
 import Search from '../components/Search'
+import LoadingSpinner from '../components/LoadingSpinner'
+import Error from '../components/Error'
+import EmptyListComponent from '../components/EmptyListComponent'
 
 const ProductsByCategory = ({navigation,route}) => {
 
@@ -11,9 +14,6 @@ const ProductsByCategory = ({navigation,route}) => {
   const [productsFiltered,setProductsFiltered] = useState([])
   const [keyword,setKeyword] = useState("")
 
-  const handlerKeyword = (k) => {
-    setKeyword(k)
-  }
   useEffect(()=>{
     setProductsFiltered(products)
     if(keyword) setProductsFiltered(products.filter(product => {
@@ -23,8 +23,14 @@ const ProductsByCategory = ({navigation,route}) => {
    }))
    },[categorySelected,keyword, products])
 
-  if (isLoading) return <View><Text>Cargando...</Text></View>
-
+   if(isLoading) return <LoadingSpinner/>
+   if(isError) return <Error message="¡Ups! Algo salió mal." textButton="Volver" onRetry={()=>navigation.goBack()}/>
+   if(isSuccess && products === null) return <EmptyListComponent message="El producto no esta disponible"/>
+  
+   const handlerKeyword = (k) => {
+    setKeyword(k)
+  }
+ 
   return (
     <View style={styles.container}>
         <Search handlerKeyword={handlerKeyword}/>

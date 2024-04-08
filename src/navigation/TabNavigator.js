@@ -7,6 +7,7 @@ import TabBarIcon from '../components/TabBarIcon';
 import colors from '../utils/globals/colors'
 import ProfileStack from './ProfileStack'
 
+
 const Tab = createBottomTabNavigator()
 
 

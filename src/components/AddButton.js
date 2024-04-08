@@ -16,7 +16,7 @@ export default AddButton
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor:colors.green3,
+        backgroundColor:colors.brown2,
         width:"70%",
         paddingVertical:8,
         margin:10

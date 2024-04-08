@@ -1,5 +1,15 @@
+
 [
-    "Suaves",
-    "Intensos",
-    "Fuertes"
-  ]
+  {
+    "title":"Suaves",
+    "thumbnail":"https://www.lajoyadelcafe.com/wp-content/uploads/2019/10/GRANOS-DE-CAF%C3%89-2048x1120.jpg"
+  },
+  {
+    "title":"Intensos",
+    "thumbnail":"https://1.bp.blogspot.com/-tShjLH5vSlQ/UTFWCfRCdII/AAAAAAABr9M/dAfTTq1HH9E/s1600/fotos-e-im%C3%A1genes-de-granos-de-caf%C3%A9-y-taza-coffee-photos-3.jpg"
+  },
+  {
+    "title": "Fuertes",
+    "thumbnail":"https://3.bp.blogspot.com/-L5CPLXW89MM/UTFWOoynUYI/AAAAAAABr9c/6f6a1LbTuXk/s1600/fotos-e-im%C3%A1genes-de-granos-de-caf%C3%A9-y-taza-coffee-photos-6.jpg"
+  }
+]

@@ -11,8 +11,11 @@ Se visualizan los distintos tipos de granos de café, se instruye sobre sus sabo
 - **Pestaña 3 - Órdenes:** Historial de órdenes realizadas.
 - **Pestaña 4 - Perfil:** Información del usuario, ubicación y carga de imagen de perfil.
 
-<img src="" width="300" >
-<img src="" width="300" >
+<img src="./assets/screenshots/Imagen de WhatsApp 2024-04-08 a las 14.27.23_168e949a.jpg" width="300" >
+<img src="./assets/screenshots/Imagen de WhatsApp 2024-04-08 a las 14.27.23_65cbbc9a.jpg" width="300" >
+<img src="./assets/screenshots/Imagen de WhatsApp 2024-04-08 a las 14.27.23_b7c6ca8a.jpg" width="300" >
+<img src="./assets/screenshots/Imagen de WhatsApp 2024-04-08 a las 14.27.24_162549f0.jpg" width="300" >
+<img src="./assets/screenshots/Imagen de WhatsApp 2024-04-08 a las 14.27.24_1e107d72.jpg" width="300" >
 
 ## Tecnologías Utilizadas
 
@@ -26,7 +29,7 @@ Se visualizan los distintos tipos de granos de café, se instruye sobre sus sabo
 
 ### Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-aplicacion.git`
+1. Clona el repositorio: `git clone`
 2. Instala las dependencias: `npm install`
 3. Configura las claves de API para servicios externos (Expo-Location, Firebase, etc.).
 4. Configura las credenciales de Firebase en tu proyecto.

@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         borderBottomWidth:3,
         borderBottomColor:"white",
         padding:2,
-        fontFamily:fonts.JosefinSansBold,
+        fontFamily:fonts.PoppinsBold,
         fontSize:14,
         marginHorizontal:"5%",
         marginVertical:10
@@ -42,12 +42,12 @@ const styles = StyleSheet.create({
         width:"90%",
         marginHorizontal:"5%",
         fontSize:16,
-        fontFamily:fonts.JosefinSansBold
+        fontFamily:fonts.PoppinsBold
       },
       error:{
         fontSize:16,
         color:"red",
-        fontFamily:fonts.JosefinSansBold,
+        fontFamily:fonts.PoppinsBold,
         fontStyle:"italic",
         marginLeft:20
       }

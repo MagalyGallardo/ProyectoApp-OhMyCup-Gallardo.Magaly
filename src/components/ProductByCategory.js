@@ -18,21 +18,21 @@ const styles = StyleSheet.create({
         backgroundColor:colors.brown2,
         width:"80%",
         marginHorizontal:"10%",
-        padding:10,
-        marginVertical:10,
-        borderRadius:10,
+        padding:15,
+        marginVertical:20,
+        borderRadius:20,
         flexDirection:"row",
         alignItems:"center",
-        gap:20
+        gap:30
     },
     text:{
         width:"60%",
         fontSize:20,
-        fontFamily:fonts.PoppinsLightItalic 
+        fontFamily:fonts.PoppinsLightItalic
     },
     image:{
         minWidth:80,
         minHeight:80,
-        borderRadius:10
+        borderRadius:50
     }
 })

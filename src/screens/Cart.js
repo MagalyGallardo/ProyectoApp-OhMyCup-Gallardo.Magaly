@@ -52,13 +52,13 @@ const styles = StyleSheet.create({
     },
     confirmContainer:{
         flexDirection:"row",
-        backgroundColor:"gray",
+        backgroundColor:"#b6d7a8",
         padding:25,
         justifyContent:"space-between",
     },
     confirmText:{
-        fontFamily:fonts.PlayfairDisplaySCRegular,
+        fontFamily:fonts.PoppinsRegular,
         fontSize:18,
-        color:"white"
+        color:"black",
     }
 })

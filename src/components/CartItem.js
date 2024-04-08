@@ -21,7 +21,7 @@ const CartItem = ({item}) => {
                 <Text style={styles.text2}>Precio: ${item.price} </Text>
             </View>
             <Pressable onPress={()=> dispatch(deleteCartItem(item.id))}>
-                <Entypo name="trash" size={30} color="black"/>
+                <Entypo name="trash" size={30} color="white"/>
             </Pressable>
             
         </View>
@@ -32,7 +32,7 @@ export default CartItem
 
 const styles = StyleSheet.create({
     card:{
-        backgroundColor:colors.green3,
+        backgroundColor:colors.brown2,
         padding:20,
         margin:10,
         borderWidth:2,
@@ -46,13 +46,14 @@ const styles = StyleSheet.create({
         width:"70%"
     },
     text:{
-        color:colors.lightGray,
+        color:colors.brown1,
         fontSize:19,
-        fontFamily:fonts.JosefinSansBold
+        fontFamily:fonts.PoppinsBold,
     },
     text2:{
-        color:colors.lightGray,
-        fontSize:14,
-        fontFamily:fonts.JosefinSansBold
-    }
+        color:colors.brown1,
+        fontSize:10,
+        fontFamily:fonts.PoppinsBold
+    },
+
 })

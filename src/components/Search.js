@@ -3,6 +3,7 @@ import {AntDesign} from "@expo/vector-icons"
 import colors from '../utils/globals/colors'
 import { useState } from 'react'
 
+
 const Search = ({handlerKeyword}) => {
     const [input,setInput] = useState("")
     const [error,setError] = useState("")
@@ -40,7 +41,7 @@ const Search = ({handlerKeyword}) => {
             <AntDesign name='search1' size={30} color="black"/>
         </Pressable>
         <Pressable onPress={resetSearch}>
-            <AntDesign name='closecircle' size={30} color="black"/>
+            <AntDesign name='closecircle' size={25} color="black"/>
         </Pressable>
         </View>
         {error ? <Text style={styles.errorText}>{error}</Text> : null}
@@ -54,8 +55,8 @@ const styles = StyleSheet.create({
     container:{
         backgroundColor:colors.brown1,
         flexDirection:"row",
-        padding:20,
-        alignItems:"center"
+        padding:10,
+        alignItems:"center",
     },
     input:{
         flex:1,
@@ -66,7 +67,7 @@ const styles = StyleSheet.create({
     },
     errorText:{
         color:"red",
-        paddingHorizontal:10
+        paddingHorizontal:10,
       }
 
 })

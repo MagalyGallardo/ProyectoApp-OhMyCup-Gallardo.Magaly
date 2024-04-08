@@ -1,4 +1,5 @@
 import { StyleSheet, SafeAreaView } from 'react-native'
+import { useEffect } from "react"
 import { NavigationContainer } from '@react-navigation/native'
 import colors from '../utils/globals/colors';
 import TabNavigator from './TabNavigator'
@@ -16,9 +17,13 @@ const MainNavigator = () => {
       ( async ()=>{
        const session = await fetchSession()
        if(session.rows.length){
+        const now = Math.floor(Date.now() / 1000)
+        const updateAt = session.rows._array[0].updateAt
+        const sessionTime = now - updateAt
+        if(sessionTime < 3600 ){
           const user = session.rows._array[0]
           dispatch(setUser(user))
-
+        }
        }
       })()
     },[])

@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
         gap:20
     },
     text:{
-        fontSize:16
+        fontSize:16,
+        color: "black"
     }
 })
